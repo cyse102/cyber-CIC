@@ -34,7 +34,7 @@ Parameters:
   VPCID:
     Description: ID of the target VPC (e.g., vpc-0343606e).
     Type: AWS::EC2::VPC::Id
-    Deafault: vpc-0f4e8b87c254cd566
+    Default: vpc-0f4e8b87c254cd566
     
 Resources:
   EC2InstanceSG:
